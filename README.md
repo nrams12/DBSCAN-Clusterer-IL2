@@ -7,7 +7,7 @@ What you will need to run the code:
 
 
 To use the code:
-1. We recommend using the ImageJ plugin ThunderSTORM to reconstruct the data. Reconstruct the image how you normally would. Export the image containing all of the columns. The code takes 
+1. We recommend using the ImageJ plugin ThunderSTORM to reconstruct the data. Reconstruct the image how you normally would. Export the image containing all of the columns. The program inputs only the 3rd and 4th columns from the results file, which, in our case, is only the XY coordinates. The user may need to adjust the columns read by the program if their XY coordinates are not the 3rd and 4th columns. 
 
 2. Open the MATLAB code. We recommend running this code by each section rather than all at once.
    
