@@ -15,4 +15,4 @@ To use the code:
    
 4. Prior to running the next section, set the minPTS (minimum number of points) and the Epsilon (radius) in the DBSCAN section of the code. These parameters may need adjusting depending on your data. It may require this section to be rerun until adequate clusters are achieved. 
 
-5. Once adequate clustering is achieved
+5. Once adequate clustering is achieved, 
