@@ -13,6 +13,8 @@ To use the code:
    
 3. Run the first section. The program will prompt the user to select the .csv file containing the dSTORM image data.
    
-4. Prior to running the next section, set the minPTS (minimum number of points) and the Epsilon (radius) in the DBSCAN section of the code. These parameters may need adjusting depending on your data. It may require this section to be rerun until adequate clusters are achieved. 
+4. Prior to running the next section, set the minPTS (minimum number of points) and the Epsilon (radius) in the DBSCAN section of the code. These parameters may need adjusting depending on your data. It may require this section to be rerun until adequate clusters are achieved. The program then sorts all the clusters into a struct.
 
-5. Once adequate clustering is achieved, 
+5. The next section calculates the maximum diameter of each cluster by finding the distance between each XY pair and others in the same cluster and then finding the maximum. These values are then stored in the same struct.
+
+6. fwe
