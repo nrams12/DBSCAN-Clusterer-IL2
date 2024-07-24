@@ -7,7 +7,7 @@ What you will need to run the code:
 
 
 To use the code:
-1. We recommend using the ImageJ plugin ThunderSTORM to reconstruct the data. Reconstruct the image how you normally would. Export the image containing all of the columns.
+1. We recommend using the ImageJ plugin ThunderSTORM to reconstruct the data. Reconstruct the image how you normally would. Export the image containing all of the columns. The code takes 
 
 2. Open the MATLAB code. We recommend running this code by each section rather than all at once.
    
@@ -17,4 +17,6 @@ To use the code:
 
 5. The next section calculates the maximum diameter of each cluster by finding the distance between each XY pair and others in the same cluster and then finding the maximum. These values are then stored in the same struct.
 
-6. fwe
+6. The final section of the program finds the average maximum diameter of clusters in the data set. The program also calculates the percent of clusters over a certain threshold (i.e. 140 nm), which is set by the user.
+
+7. Prgoram complete. 
