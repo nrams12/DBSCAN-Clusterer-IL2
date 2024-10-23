@@ -94,7 +94,7 @@ disp("Percent of Clusters with Maximum Diameter > " + MDThresh + ": " + percentM
 %% Import csv and write into it
 disp('Prepare for Export');disp(' ');
 %Create Matricies of the sorted data to prep for export
-exportSortedData = [clusterIDHold,AreaHold,CircHold,DensityHold,MDHold];
+exportSortedData = [clusterIDHold,MDHold];
 writematrix(exportSortedData,currentFolder+"MVClustersTotal.csv",'WriteMode','append');
 disp('All Done.');
 toc;
