@@ -64,7 +64,7 @@ for i =1:numberOfClusters %create convex hull and store areas, perimeter, and ci
     holdTheCluster = Clusters.(['Cluster',num2str(i)]);
     X = holdTheCluster(:,1);
     Y = holdTheCluster(:,2);
-    C = holdTheCluster(:,3);
+    C = holdTheCluster(1,3);
     if length(X) < 4 %leave out clusters with less than 4 
         continue
     end
